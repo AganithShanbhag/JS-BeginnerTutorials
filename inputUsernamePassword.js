@@ -18,7 +18,7 @@ function signUp() {
 
         for (var i = 0; i < pass1.length; i++) {
 
-            if ((arr[i] == '!') || (arr[i] == '@') || (arr[i] == '#')) {
+            if ((arr[i] == '!') || (arr[i] == '@') || (arr[i] == '#') || (arr[i] == '$') || (arr[i] == '%') || (arr[i] == '^')) {
                 count++;
             }
         }

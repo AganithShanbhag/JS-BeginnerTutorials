@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+
+    <style>
+        #main {
+            margin: 20px 10% 10% 10%;
+            padding: 5%;
+            background: #1E212B;
+            color: #FFC800;
+        }
+
+        p {
+            color: #FF8427;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p style="text-align: center;font-size: xx-large;color: black;">Math Quiz</p>
+    <p style="text-align:center;color:green">Attention User, Every correct answer gets you 1 Mark and -0.25 for wrong
+        answer. <br /> Best of Luck!</p>
+
+    <div id="main">
+
+        <p>1. Factorial of 7 is</p>
+        <input id="rd1" name="grp1" type="radio" value="5040">5040</inputs><br>
+        <input id="rd2" name="grp1" type="radio" value="1680">1680</inputs><br>
+        <input id="rd3" name="grp1" type="radio" value="7329">7329</inputs><br>
+        <input id="rd4" name="grp1" type="radio" value="11232">11232</inputs><br>
+
+
+        <p>2. The remainder when 89 is divided by 7 is </p>
+        <input id="rd5" name="grp2" type="radio" value="9">9</inputs><br>
+        <input id="rd6" name="grp2" type="radio" value="5">5</inputs><br>
+        <input id="rd7" name="grp2" type="radio" value="4">4</inputs><br>
+        <input id="rd8" name="grp2" type="radio" value="8">8</inputs><br>
+
+        <p>3. Expand sin(p + q) - </p>
+        <input id="rd9" name="grp3" type="radio" value="">sin(p*q) +cos(p*q)</inputs><br>
+        <input id="rd10" name="grp3" type="radio" value="">sin(p) + sin(q)</inputs><br>
+        <input id="rd11" name="grp3" type="radio" value="">sin((p+q)/2)sin((a-b)/2)</inputs><br>
+        <input id="rd12" name="grp3" type="radio" value="sin(p)cos(q) + cos(a)sin(b)">sin(p)cos(q) + cos(a)sin(b)
+        </inputs><br>
+
+        <br />
+        <br />
+
+        <p>4. Find the Angle x</p> <br />
+        <img src="http://www.analyzemath.com/middle_school_math/grade_9/graphs/geometry_grade_9_6.gif"
+            alt="geometry_grade_9_6" /> <br /><br />
+        <input id="rd13" name="grp4" type="radio" value="21">21</inputs><br>
+        <input id="rd14" name="grp4" type="radio" value="24">24</inputs><br>
+        <input id="rd15" name="grp4" type="radio" value="34">34</inputs><br>
+        <input id="rd16" name="grp4" type="radio" value="15">15</inputs><br>
+
+        <p>5. Value of tan(30)</p>
+        <input id="rd17" name="grp5" type="radio" value="0.577">0.577</inputs><br>
+        <input id="rd18" name="grp5" type="radio" value="0.866">0.866</inputs><br>
+        <input id="rd19" name="grp5" type="radio" value="0.333">0.333</inputs><br>
+        <input id="rd100" name="grp5" type="radio" value="1">1</inputs><br>
+
+        <p>6. Evaulate 13 - 3 × 4 + 2 </p>
+        <input id="rd20" name="grp6" type="radio" value="42">42</inputs><br>
+        <input id="rd21" name="grp6" type="radio" value="60">60</inputs><br>
+        <input id="rd22" name="grp6" type="radio" value="3">3</inputs><br>
+        <input id="rd23" name="grp6" type="radio" value="-5">-5</inputs><br>
+
+        <p>7. What is 6% equal to</p>
+        <input id="rd24" name="grp7" type="radio" value="6">6</inputs><br>
+        <input id="rd25" name="grp7" type="radio" value="0.06">0.06</inputs><br>
+        <input id="rd26" name="grp7" type="radio" value="60">60</inputs><br>
+        <input id="rd27" name="grp7" type="radio" value="0.6">0.6</inputs><br>
+
+        <p>8. What is the value of x if x^2 = 169</p>
+        <input id="rd28" name="grp8" type="radio" value="+13">+13</inputs><br>
+        <input id="rd29" name="grp8" type="radio" value="-13">-13</inputs><br>
+        <input id="rd30" name="grp8" type="radio" value="+-13">+-13</inputs><br>
+        <input id="rd31" name="grp8" type="radio" value="169^2">169^2</inputs><br>
+
+        <p>9. A century contains _____ months</p>
+        <input id="rd32" name="grp9" type="radio" value="1200">1200</inputs><br>
+        <input id="rd33" name="grp9" type="radio" value="120">120</inputs><br>
+        <input id="rd34" name="grp9" type="radio" value="12*1000">12*1000</inputs><br>
+        <input id="rd35" name="grp9" type="radio" value="24000">24000</inputs><br>
+
+        <p>10. The mean and median of the following set is - {1, 3, 3, 6, 7, 8, 9}</p>
+        <input id="rd36" name="grp10" type="radio" value="Both 5.285">Both 5.285</inputs><br>
+        <input id="rd37" name="grp10" type="radio" value="Both 6">Both 6</inputs><br>
+        <input id="rd38" name="grp10" type="radio" value="Median is 6 Mean is 5.285">Median is 6 Mean is 5.285</inputs>
+        <br>
+        <input id="rd39" name="grp10" type="radio" value="Mean is 6 Median is 5.285">Mean is 6 Median is 5.285</inputs>
+        <br />
+        <br />
+
+        <button style="color: #4D8B31;" onclick="fn()">SUBMIT</button>
+
+    </div>
+
+</body>
+
+<script type="text/javascript" src="quiz.js"></script>
+
+</html>
