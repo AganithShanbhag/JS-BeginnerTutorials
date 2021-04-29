@@ -87,8 +87,6 @@ function fn() {
     else {
         count -= 0.25;
     }
-
-
     document.write("Your Score is " + count);
 
 }
