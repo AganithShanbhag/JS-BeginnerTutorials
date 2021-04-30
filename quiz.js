@@ -1,7 +1,6 @@
 var count = 0;
 function fn() {
 
-
     var rd1 = document.getElementById("rd1");
     var rd2 = document.getElementById("rd2");
     var rd3 = document.getElementById("rd3");
